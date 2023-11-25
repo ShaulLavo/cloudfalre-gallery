@@ -11,6 +11,9 @@ export const lenisManager = {
 			infinite: isInfinite,
 			normalizeWheel: true,
 			wheelMultiplier: 1.6,
+			touchMultiplier: 2,
+			smoothTouch: true,
+			smoothWheel: true,
 			lerp: 0.2
 		});
 		this.instance.emit();
